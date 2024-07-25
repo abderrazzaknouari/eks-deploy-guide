@@ -9,7 +9,7 @@
     "userInputs": {
       "properties": {
         "cluster_name": {
-          "title": "Cluster Name",
+          "title": "NodeJsAPP",
           "description": "The name of the EKS Cluster",
           "icon": "AmazonEKS",
           "type": "string"
@@ -32,8 +32,8 @@
   },
   "invocationMethod": {
     "type": "GITHUB",
-    "org": "<GITHUB_ORG>",
-    "repo": "<GITHUB_REPO>",
+    "org": "abderrazzak",
+    "repo": "eks-deploy-guide",
     "workflow": "manage-eks-cluster.yml",
     "workflowInputs": {
       "cluster_name": "{{ .inputs.\"cluster_name\" }}",
