@@ -32,7 +32,7 @@
   },
   "invocationMethod": {
     "type": "GITHUB",
-    "org": "abderrazzak",
+    "org": "abderrazzaknouari",
     "repo": "eks-deploy-guide",
     "workflow": "manage-eks-cluster.yml",
     "workflowInputs": {
