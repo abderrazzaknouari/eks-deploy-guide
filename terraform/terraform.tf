@@ -3,7 +3,7 @@
 
 terraform {
   cloud {
-    organization = "abderrazzak"
+    organization = "Abderrazzak"
 
     workspaces {
       name = "eks-deploy-guide"
