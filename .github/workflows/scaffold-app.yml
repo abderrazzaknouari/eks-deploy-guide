@@ -94,7 +94,7 @@ jobs:
         uses: andrewthetechie/gha-cookiecutter@main
         with:
           # path to what you checked out
-          template: ./app-templates/${{ github.event.inputs.template }}
+          template: ./app-templates/nodejs
           outputDir: ./tmp
           cookiecutterValues: '{
             "project_name": "${{ github.event.inputs.project_name }}",
