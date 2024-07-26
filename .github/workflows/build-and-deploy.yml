@@ -32,7 +32,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        repository: abderrazzaknouari/${{ env.REPO_NAME }}
+        repository: abderrazzaknouari/eks_cluster
         token: ${{ secrets.CREATOR_TOKEN }}
 
     - name: Get short commit ID
