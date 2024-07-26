@@ -36,8 +36,8 @@
   },
   "invocationMethod": {
     "type": "GITHUB",
-    "org": "abderrazzaknouari",
-    "repo": "eks-deploy-guide",
+    "org": "phalbert",
+    "repo": "azure-resources-terraform",
     "workflow": "scaffold-app.yml",
     "workflowInputs": {
       "project_name": "{{.inputs.\"project_name\"}}",
