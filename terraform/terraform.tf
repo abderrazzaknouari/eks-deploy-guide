@@ -6,7 +6,7 @@ terraform {
     organization = "Abderrazzak"
 
     workspaces {
-      name = "eks-cluster"
+      name = "eks_cluster"
     }
   }
 
