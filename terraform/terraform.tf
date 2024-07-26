@@ -6,9 +6,10 @@ terraform {
     organization = "Abderrazzak"
 
     workspaces {
-      name = "eks-deploy-guide"
+      name = "eks_cluster"
     }
   }
+}
 
   required_providers {
     aws = {
