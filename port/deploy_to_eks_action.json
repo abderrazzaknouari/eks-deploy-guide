@@ -21,8 +21,8 @@
     },
     "invocationMethod": {
       "type": "GITHUB",
-      "org": "<GITHUB_ORG>",
-      "repo": "<GITHUB_REPO>",
+      "org": "abderrazzaknouari",
+      "repo": "eks-deploy-guide",
       "workflow": "build-and-deploy.yml",
       "workflowInputs": {
         "cluster": "{{.inputs.\"cluster\"}}",
