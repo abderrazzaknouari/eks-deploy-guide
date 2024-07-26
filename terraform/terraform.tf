@@ -6,10 +6,9 @@ terraform {
     organization = "Abderrazzak"
 
     workspaces {
-      name = "eks_cluster"
+      name = "eks-cluster"
     }
   }
-}
 
   required_providers {
     aws = {
@@ -39,5 +38,4 @@ terraform {
 
   required_version = "~> 1.3"
 }
-
 
